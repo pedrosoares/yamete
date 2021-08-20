@@ -1,0 +1,16 @@
+{
+  "name": "yamete",
+  "version": "1.0.1",
+  "description": "Play audio afterinstall =)",
+  "main": "src/main.js",
+  "scripts": {
+    "postinstall": "node src/main.js -P"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "play-sound": "^1.1.3",
+    "sound-play": "^1.1.0"
+  }
+}
